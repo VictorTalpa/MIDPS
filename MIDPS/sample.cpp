@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello World!";
+	cout << "Conflict branch";
 	
 	return 0;
 }
