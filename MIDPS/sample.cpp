@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Master!";
+	cout << "Conflict Resolved !";
 	
 	return 0;
 }
