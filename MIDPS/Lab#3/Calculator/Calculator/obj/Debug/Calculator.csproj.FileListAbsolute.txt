@@ -1,0 +1,7 @@
+C:\Users\Viktor\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Viktor\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Viktor\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.Calc.resources
+C:\Users\Viktor\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Viktor\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Viktor\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Viktor\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
