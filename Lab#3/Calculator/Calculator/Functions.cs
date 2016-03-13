@@ -7,35 +7,40 @@ namespace Calculator
         static public double x;
         static public double y;
         static public string operation;
+        static public bool read = false;
 
         static public Calc Calculator;
 
         static public void Add(object Sender, EventArgs e)
         {
             x = Convert.ToDouble(Calculator.textBox.Text);
-            Calculator.textBox.Text = "0";
+            //Calculator.textBox.Text = "0";
             operation = "plus";
+            read = true;
         }
 
         static public void Subtract(object Sender, EventArgs e)
         {
             x = Convert.ToDouble(Calculator.textBox.Text);
-            Calculator.textBox.Text = "0";
+            //Calculator.textBox.Text = "0";
             operation = "minus";
+            read = true;
         }
 
         static public void Multiply(object Sender, EventArgs e)
         {
             x = Convert.ToDouble(Calculator.textBox.Text);
-            Calculator.textBox.Text = "0";
+            //Calculator.textBox.Text = "0";
             operation = "multiply";
+            read = true;
         }
 
         static public void Divide(object Sender, EventArgs e)
         {
             x = Convert.ToDouble(Calculator.textBox.Text);
-            Calculator.textBox.Text = "0";
+            //Calculator.textBox.Text = "0";
             operation = "divide";
+            read = true;
         }
 
         static public void SquareRoot(object Sender, EventArgs e)
@@ -50,8 +55,9 @@ namespace Calculator
         static public void Exponent(object Sender, EventArgs e)
         {
             x = Convert.ToDouble(Calculator.textBox.Text);
-            Calculator.textBox.Text = "0";
+            //Calculator.textBox.Text = "0";
             operation = "power";
+            read = true;
         }
 
         static public void Backspace(object Sender, EventArgs e)
@@ -86,6 +92,17 @@ namespace Calculator
         static public void Clear(object Sender, EventArgs e)
         {
             Calculator.textBox.Text = "0";
+        }
+
+        static public void TextBoxChanged(object Sender, EventArgs e)
+        {
+            while (Calculator.textBox.Text.Length > 9)
+                Backspace(Sender, e);
+            if (read)
+            {
+                Calculator.textBox.Text = Calculator.textBox.Text[Calculator.textBox.Text.Length - 1].ToString();
+                read = false;
+            }
         }
 
         static public void Equal(object Sender, EventArgs e)
@@ -126,6 +143,7 @@ namespace Calculator
             }
             if (Calculator.textBox.Text.Length > 9)
                 Calculator.textBox.Text = Calculator.textBox.Text.Substring(0, 9);
+            read = true;
         }
 
         static public void num0Click(object Sender, EventArgs e)

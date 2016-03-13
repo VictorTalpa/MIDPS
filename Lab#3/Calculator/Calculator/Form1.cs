@@ -12,6 +12,7 @@ namespace Calculator
             
             buttonBackspace.Click += new EventHandler(Functions.Backspace);
             buttonMultiply.Click += new EventHandler(Functions.Multiply);
+            textBox.TextChanged += new EventHandler(Functions.TextBoxChanged);
             buttonDivide.Click += new EventHandler(Functions.Divide);
             buttonEqual.Click += new EventHandler(Functions.Equal);
             buttonMinus.Click += new EventHandler(Functions.Subtract);
