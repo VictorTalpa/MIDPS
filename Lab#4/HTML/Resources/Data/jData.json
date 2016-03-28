@@ -1,0 +1,29 @@
+{
+  "students":
+  [
+    {"lastName":"Capcelea",     "firstName":"Nicolae"},
+    {"lastName":"Cherdivara",   "firstName":"Artiom"},
+    {"lastName":"Gorduz",       "firstName":"Daniel"},
+    {"lastName":"Melninceanu",  "firstName":"Rodion"},
+    {"lastName":"Mitu",         "firstName":"Rostislav"},
+    {"lastName":"Nanii",        "firstName":"Gheorge"},
+    {"lastName":"Nirones",      "firstName":"Cristian"},
+    {"lastName":"Novac",        "firstName":"Mihai"},
+    {"lastName":"Olaru",        "firstName":"Cristian"},
+    {"lastName":"Pascan",       "firstName":"Ion"},
+    {"lastName":"Pascari",      "firstName":"Ion"},
+    {"lastName":"Petrenco",     "firstName":"Mihai"},
+    {"lastName":"Plotnicu",     "firstName":"Rodica"},
+    {"lastName":"Prisacari",    "firstName":"Ion"},
+    {"lastName":"Puhalschi",    "firstName":"Alexandru"},
+    {"lastName":"Rosca",        "firstName":"Andrei"},
+    {"lastName":"Rusu",         "firstName":"Dragos"},
+    {"lastName":"Saca",         "firstName":"Marin"},
+    {"lastName":"Soltan",       "firstName":"Alexandru"},
+    {"lastName":"Sova",         "firstName":"Cristian"},
+    {"lastName":"Stratan",      "firstName":"Ion"},
+    {"lastName":"Susorov",      "firstName":"Vladislav"},
+    {"lastName":"Talpa",        "firstName":"Victor"},
+    {"lastName":"Vasilic",      "firstName":"Iurie"}
+  ]
+}
