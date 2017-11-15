@@ -14,5 +14,3 @@ Tehnologii folosite: XCode, Objective-C, Cocoa Touch
 - Am implementat logica tehnicii Pomodoro
 
 =============================================================================================================================================
-
- **Concluzie**: Efectuind aceasta lucrare de laborator am obtinut cunostiinte fundamentale despre crearea unui website si implementarea functionala a diferitor tehnologii cum ar fi Javascript si AJAX requests.
